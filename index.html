@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prajna</title>
+
+  <!-- FAVICON -->
+  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- SWEET ALERT -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- EMAIL JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("{{YOUR USER KEY}}");
+    })();
+  </script>
+
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+    <div class="max-width">
+      <div class="logo">
+        <a href="#">Pr<span>ajna</span></a>
+      </div>
+      <ul class="menu">
+        <li><a href="#home" class="menu-btn">Home</a></li>
+        <li><a href="#about" class="menu-btn">About</a></li>
+        <li><a href="#services" class="menu-btn">Services</a></li>
+        <li><a href="#skills" class="menu-btn">Skills</a></li>
+        <!-- <li><a href="#contact" class="menu-btn">Contact</a></li> -->
+      </ul>
+      <div class="menu-btn">
+        <i class="material-icons">menu</i>
+      </div>
+    </div>
+  </nav>
+  <!-- Scroll to top button -->
+  <button id="btnScrollToTop">
+    <i class="material-icons">arrow_upward</i>
+  </button>
+
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1">Hello, my name is</div>
+        <div class="text-2">PRAJNA PRABHU</div>
+        <div class="text-3">I'm a <span class="typing"></span></div>
+
+        <!-- <section class="links">
+          <!-- <div class="text-center"> -->
+        <!-- <a href="{{YOUR LINKEDIN}}"><i class="fa fa-linkedin"></i></a> -->
+        <!-- <a href="https://github.com/Prajnaprabhu3"><i class="fa fa-github"></i></a> -->
+        <!-- <a href="{{YOUR YOUTUBE}}"><i class="fa fa-instagram"></i></a> -->
+        <!-- <a href="{{YOUR YOUTUBE}}"><i class="fa fa-twitter"></i></a> -->
+        <!-- </div> -->
+        <!-- </section> -->
+
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">About Me</h2>
+      <div class="about-content">
+        <div class="column left">
+          <img src="images/Image2.jpeg" alt="" />
+        </div>
+        <div class="column right">
+          <div class="text">
+            I'm PRAJNA, &nbsp; Im a <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            19 year old exploring things in tech. Currently I am pursuing Btech in Data Science and Engineering from
+            Manipal Institute of Technology. I am a web developer, apart from this I like designing
+            and I am a ML enthusiast. I am looking towards building a career in the field of Data Science. Also, I like
+            pushing myself and taking up new challenges.
+          </p>
+          <a href="https://drive.google.com/file/d/1kf0N3dpZoOV64W95sVXlYXVa4KD0yA7u/view?usp=sharing"
+            target="_blank">Download
+            Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title">My Services</h2>
+      <div class="serv-content">
+
+        <!-- <div class="card">
+          <div class="box">
+            <i class="fas fa-laptop-code"></i>
+            <div class="text">{{SKILL 1}}</div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus error eos suscipit
+              culpa, impedit cum corporis dignissimos porro quae deleniti. Mollitia blanditiis, doloremque eius voluptas
+              nam labore eligendi maiores in sed pariatur odit provident qui ad est similique iste.
+            </p>
+          </div>
+        </div> -->
+
+        <!-- <div class="card">
+          <div class="box">
+            <i class="fas fa-code"></i>
+            <div class="text">{{SKILL 2}}</div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt minus dolore aperiam ullam praesentium
+              molestias ipsam recusandae sunt, exercitationem, rerum tempore voluptates quam excepturi laborum maxime
+              fugit iure sed eius neque culpa. Eligendi nostrum fugiat rerum! Magnam molestias a aspernatur?
+            </p>
+          </div>
+        </div> -->
+
+        <div class="card">
+          <div class="box">
+            <i class="fas fa-mobile-alt"></i>
+            <div class="text">Web development</div>
+            <p>
+              I am currently working on web development. And interested in any work related to it.I also do a bit of
+              designing. And a Data Science enthusiast, will to work on any project.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills section services -->
+  <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">
+            My creative skills & experiences.
+          </div>
+          <p class="paragraph-2">
+            I started my web development journey with HTML , CSS and I am still learning JS and Working on React right
+            now.I know programming languages which includes C, C++. And also into bit of designing, so know some of the
+            tools used in graphics.Git, github are the essentials required when you collaborate on projects. And linux
+            is something I am trying out recently !
+          </p>
+          <a href="#about">Read More</a>
+        </div>
+        <div class="column right skill-box">
+          <div class="icons">
+            <img src="images\skill-icons\icons8-html-5.svg" alt="html" , id="html-icon">
+            <img src="images\skill-icons\icons8-css3.svg" alt="css" id="css-icon">
+            <img src="images\skill-icons\icons8-javascript.svg" alt="js" id="js-icon">
+            <img src="images\skill-icons\icons8-react-native.svg" alt="react" id="react-icon">
+
+            <!-- <img src="images\skill-icons\icons8-flutter.svg" alt="flutter" id="flutter-icon"> -->
+          </div>
+          <div class="icons">
+
+
+            <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon">
+            <!-- <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon"> -->
+            <img src="images\skill-icons\icons8-c++.svg" alt="c++" id="cpp-icon">
+            <!-- <img src="images\skill-icons\icons8-c.svg" alt="" id="cpp-icon"> -->
+            <img src="https://img.icons8.com/fluency/48/000000/python.png" />
+            <img src="https://img.icons8.com/color/48/000000/c-programming.png" />
+
+          </div>
+
+          <div class="icons">
+            <!-- <img src="https://img.icons8.com/color/48/000000/sass.png" /> -->
+            <!-- <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" /> -->
+            <!-- <img src="images\skill-icons\icons8-nodejs.svg" alt="nodedjs" id="nodejs-icon"> -->
+            <img src="https://img.icons8.com/color/48/000000/git.png" />
+            <img src="https://img.icons8.com/material-sharp/50/FFFFFF/github.png" />
+            <img src="https://img.icons8.com/color/48/000000/linux--v1.png" />
+            <img src="https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png" />
+
+          </div>
+
+          <div class="icons">
+            <!-- <img src="https://img.icons8.com/material-sharp/50/FFFFFF/github.png" /> -->
+            <!-- <img src="https://img.icons8.com/ios/50/000000/github--v1.png" /> -->
+            <!-- <img src="https://img.icons8.com/plasticine/100/000000/bash.png" height="60px" width="60px" /> -->
+            <!-- <img src="https://img.icons8.com/color/48/000000/linux--v1.png" /> -->
+            <!-- <img src="https://img.icons8.com/color/48/000000/adobe-illustrator--v1.png" /> -->
+          </div>
+
+
+          <div class="icons">
+            <img src="https://img.icons8.com/color/48/000000/adobe-xd--v1.png" />
+            <!-- <img src="https://img.icons8.com/color/48/000000/figma.png" /> -->
+            <!-- <img src="https://img.icons8.com/ios/50/FFFFFF/flask.png" height="60px" width="60px" /> -->
+            <!-- <img src="https://img.icons8.com/ios/48/FFFFFF/django.png" height="60px" width="60px" /> -->
+          </div>
+
+
+  </section>
+
+  <!-- Contact Section -->
+  <!-- 
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">Contact Me</h2>
+      <div class="contact-content">
+        <div class="column left">
+          <div class="text">Let's Get in Touch</div>
+          <p class="paragraph-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium autem voluptas
+            fugit voluptatibus deleniti quia culpa commodi, ipsum nulla modi.
+          </p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Prajna</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">Karnataka, India</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">prajnapprabhu3@gmail.com</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right">
+          <div class="text">
+            Message Me
+          </div>
+          <form action="#Contact">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" id="fromName" placeholder="Name" required autocomplete="off">
+              </div>
+              <div class="field email">
+                <input type="email" id="emailSender" placeholder="Email" required autocomplete="off">
+              </div>
+            </div>
+            <div class="field">
+              <input type="text" id="subjectSender" placeholder="Subject" required autocomplete="off">
+            </div>
+            <div class="field textarea">
+              <textarea cols="30" rows="10" id="message" placeholder="Message" required autocomplete="off"></textarea>
+            </div>
+            <div class="button">
+              <button onclick='sendMail()' type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div> -->
+
+  </section>
+
+
+
+
+  <!-- footer section start -->
+  <footer>
+    <div class="text-center">
+
+
+      <span>
+
+        <!-- Created By <a href="#">Prajna</a> | <span class="far fa-copyright"> </span> -->
+        <a href="#">Prajna</a> | <span class="fa fa-copyright"> </span>
+        <script>document.write(new Date().getFullYear())</script> All rights reserved.
+
+      </span>
+      <div>
+        <a href="{{YOUR LINKEDIN}}"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/Prajnaprabhu3"><i class="fa fa-github"></i></a>
+        <a href="{{YOUR YOUTUBE}}"><i class="fa fa-instagram"></i></a>
+        <a href="{{YOUR YOUTUBE}}"><i class="fa fa-twitter"></i></a>
+
+
+
+
+        <!-- <a href="https://github.com/Prajnaprabhu3"> <i class="fab fa-github"></i> </a> -->
+        <!-- <a href="https://github.com/Prajnaprabhu3"> <i class="bi bi-github"></i></a> -->
+      </div>
+    </div>
+
+
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function () { myFunction() };
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+</body>
+
+</html>
